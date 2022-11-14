@@ -8,6 +8,6 @@ form.addEventListener("submit", (e) => {
     alert("Check it", number.value);
     return;
   }
-  console.log(number.value);
-  location.href = `https://api.whatsapp.com/send?phone=${number.value}`;
+  location.href = `https://wa.me/${number.value}`;
+  console.log(location.href);
 });
