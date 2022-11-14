@@ -9,3 +9,12 @@ function chatSub(e) {
   }
   chat.href = `https://wa.me/+91${number.value}`;
 }
+
+const wts = document.getElementById('wts')
+const form_inp = document.getElementById('form_inp');
+
+console.log(form_inp.value);
+wts.addEventListener('submit' , e=>{
+  e.preventDefault()
+  location.href = `https://wa.me/+91${form_inp.value}`
+})
