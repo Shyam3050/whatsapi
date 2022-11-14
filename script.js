@@ -7,5 +7,5 @@ function chatSub(e) {
     alert("Check it", number.value);
     return;
   }
-  chat.href = `https://wa.me/${number.value}`;
+  chat.href = `https://wa.me/+91${number.value}`;
 }
